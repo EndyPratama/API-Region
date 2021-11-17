@@ -6,11 +6,45 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Api-Region-Hello-World)
 ![VBA](https://img.shields.io/badge/Uses-Visual%20Basic%206-blue.svg?&style=flat&logo=microsoftvisualbasic)
 
-# Api-Region-Hello-World
-Membentuk kata "HELLO WORLD" dengan menggunakan bantuan Library API Visual Basic 6
+# API-Region
+Api Region is used to form words that appear on the desktop screen using the help of the Visual Basic 6 API Library
 
-<br>
-<br>
+## EXPLANATION
+<p><b>By using the Lib "gdi32" API in Visual Basic 6, you can manipulate various objects as desired. Function lib "gdi32" can be applied to forms, while the functions used in general are :
+  
+- PathToRegion<br>
+Function to create an area from the selected path into a certain area.<br><br>
+- PtlnRegion<br>
+Functions to determine whether a certain point is within the specified area.<br><br>
+- OffsetRegion<br>
+Function to move in the internal area with a predetermined limit.<br><br>
+- CreateRoundRectRgn<br>
+Function to create rectangular forms with rounded corners.<br><br>
+- CreateRectRgnIndirect<br>
+Function to create rectangular area of ​​RECT structure.<br><br>
+- CreateRectRgn<br>
+Function to form a new object in the shape of a rectangle.<br><br>
+- CreatePolyPolygonRgn<br>
+Functions to create an area consisting of a series of polygons.<br><br>
+- CreatePolygonRgn<br>
+Function to form a new object in the form of a polygon.<br><br>
+- CreateEllipticRgnIndirect<br>
+Function to create ellipse area of ​​RECT structure.<br><br>
+- CreateEllipticRgn<br>
+Serves to form new objects in the form of ellipses or circles.<br><br>
+- CombineRgn<br>
+Serves to combine the intersecting parts of two different areas.<br>
+-- Number 2 in the Combine function is a fill object, which means it fills objects in certain desired fields.<br>
+-- Number 4 in the Combine function is a remove object, which means it removes objects in certain desired fields.<br><br></p>
+  
+<p><b>As for other additional functions :</b><br><br>
+1. SetWindowRgn(handle, variable, True)<br>
+The handle here means the handle of the form or other control that will be changed or invincible for the form, namely Form.hwnd.<br><br>
+2. Send Message to display the output to windows.<br><br>
+3. ReleaseCapture to make the mouse button process responsive.<br></p>
+
+# [Indonesia] Api-Region
+Api Region digunakan untuk membentuk kata yang muncul pada layar dekstop dengan menggunakan bantuan Library API Visual Basic 6
 
 ## PENJELASAN
 <p><b>Dengan menggunakan Lib "gdi32" API pada Visual Basic 6, anda dapat memanipulasi berbagai objek yang diinginkan. Function lib "gdi32" dapat diterapkan pada form, adapun fungsi-fungsi yang digunakan secara umum yaitu :</b><br><br>
@@ -47,6 +81,3 @@ Handle di sini maksudnya adalah handle dari form ataupun kontrol lainnya yang ak
 
 <br>
 <br>
-
-## DOKUMENTASI
-<img src="https://user-images.githubusercontent.com/54527592/101258632-59e7a300-3756-11eb-9db8-4d554fe43307.jpg"/>
